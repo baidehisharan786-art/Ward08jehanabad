@@ -1,0 +1,16 @@
+{
+  "name": "ward08-netlify-migration",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "netlify-cli": "^23.0.0"
+  }
+}
